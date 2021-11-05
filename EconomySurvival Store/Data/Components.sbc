@@ -1,0 +1,954 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Components>
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>RestrictedConstruction</SubtypeId>
+            </Id>
+            <DisplayName>Restricted Component</DisplayName>
+            <Icon>Textures\GUI\Icons\component\construction_restricted.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>ATV-Survivor</SubtypeId>
+            </Id>
+            <DisplayName>ATV-Survivor</DisplayName>
+            <Icon>Textures\GUI\Prefabs\ATV-Survivor.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Fighter2</SubtypeId>
+            </Id>
+            <DisplayName>Fighter2</DisplayName>
+            <Icon>Textures\GUI\Prefabs\Fighter2.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>MinerSmallShip</SubtypeId>
+            </Id>
+            <DisplayName>MinerSmallShip</DisplayName>
+            <Icon>Textures\GUI\Prefabs\Minermk.1.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Civic Hauler</SubtypeId>
+            </Id>
+            <DisplayName>Civic Hauler</DisplayName>
+            <Icon>Textures\GUI\Prefabs\CivicHauler.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Cursor</SubtypeId>
+            </Id>
+            <DisplayName>Cursor</DisplayName>
+            <Icon>Textures\GUI\Prefabs\Cursor.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Buddy Miner</SubtypeId>
+            </Id>
+            <DisplayName>Buddy Miner</DisplayName>
+            <Icon>Textures\GUI\Prefabs\BuddyMiner.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Atmo Constructor</SubtypeId>
+            </Id>
+            <DisplayName>Atmo Constructor</DisplayName>
+            <Icon>Textures\GUI\Prefabs\AtmoConstructor.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Scout Miner</SubtypeId>
+            </Id>
+            <DisplayName>Scout Miner</DisplayName>
+            <Icon>Textures\GUI\Prefabs\ScoutMiner.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Solar Scout</SubtypeId>
+            </Id>
+            <DisplayName>Solar Scout</DisplayName>
+            <Icon>Textures\GUI\Prefabs\SolarScout.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Gerbil Miner</SubtypeId>
+            </Id>
+            <DisplayName>Gerbil Miner</DisplayName>
+            <Icon>Textures\GUI\Prefabs\GerbilMiner.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Ion Constructor</SubtypeId>
+            </Id>
+            <DisplayName>Ion Constructor</DisplayName>
+            <Icon>Textures\GUI\Prefabs\IonConstructor.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Kite Miner</SubtypeId>
+            </Id>
+            <DisplayName>Kite Miner</DisplayName>
+            <Icon>Textures\GUI\Prefabs\KiteMiner.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Ion Light Scout</SubtypeId>
+            </Id>
+            <DisplayName>Ion Light Scout</DisplayName>
+            <Icon>Textures\GUI\Prefabs\IonLightScout.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Ion Tug Ship</SubtypeId>
+            </Id>
+            <DisplayName>Ion Tug Ship</DisplayName>
+            <Icon>Textures\GUI\Prefabs\IonTugShip.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Turtle Miner</SubtypeId>
+            </Id>
+            <DisplayName>Turtle Miner</DisplayName>
+            <Icon>Textures\GUI\Prefabs\TurtleMiner.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>U-92 Patrol Craft</SubtypeId>
+            </Id>
+            <DisplayName>U-92 Patrol Craft</DisplayName>
+            <Icon>Textures\GUI\Prefabs\U-92PatrolCraft.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Lunar Scout mk.4</SubtypeId>
+            </Id>
+            <DisplayName>Lunar Scout mk.4</DisplayName>
+            <Icon>Textures\GUI\Prefabs\LunarScoutmk.4.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>LCC-3 Freighter</SubtypeId>
+            </Id>
+            <DisplayName>LCC-3 Freighter</DisplayName>
+            <Icon>Textures\GUI\Prefabs\LCC-3Freighter.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Burstfire Bomber</SubtypeId>
+            </Id>
+            <DisplayName>Burstfire Bomber</DisplayName>
+            <Icon>Textures\GUI\Prefabs\BurstfireBomber.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Hydro Scout Rover</SubtypeId>
+            </Id>
+            <DisplayName>Hydro Scout Rover</DisplayName>
+            <Icon>Textures\GUI\Prefabs\HydroScoutRover.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Lunar Scout mk.2</SubtypeId>
+            </Id>
+            <DisplayName>Lunar Scout mk.2</DisplayName>
+            <Icon>Textures\GUI\Prefabs\LunarScoutmk.2.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>T-Ion Fade</SubtypeId>
+            </Id>
+            <DisplayName>T-Ion Fade</DisplayName>
+            <Icon>Textures\GUI\Prefabs\T-IonFade.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Blue Ambassador Explorer</SubtypeId>
+            </Id>
+            <DisplayName>Blue Ambassador Explorer</DisplayName>
+            <Icon>Textures\GUI\Prefabs\BlueAmbassadorExplorer.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Red Cruiser</SubtypeId>
+            </Id>
+            <DisplayName>Red Cruiser</DisplayName>
+            <Icon>Textures\GUI\Prefabs\RedCruiser.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Rescue Rover 1</SubtypeId>
+            </Id>
+            <DisplayName>Rescue Rover 1</DisplayName>
+            <Icon>Textures\GUI\Prefabs\RescueRover1.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TT-15 Freighter</SubtypeId>
+            </Id>
+            <DisplayName>TT-15 Freighter</DisplayName>
+            <Icon>Textures\GUI\Prefabs\TT-15Freighter.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>RespawnSpacePod</SubtypeId>
+            </Id>
+            <DisplayName>RespawnSpacePod</DisplayName>
+            <Icon>Textures\GUI\Prefabs\SpacePod.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>RespawnShip</SubtypeId>
+            </Id>
+            <DisplayName>RespawnShip</DisplayName>
+            <Icon>Textures\GUI\Prefabs\StarterShipmk.1.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>B-980 Hauler</SubtypeId>
+            </Id>
+            <DisplayName>B-980 Hauler</DisplayName>
+            <Icon>Textures\GUI\Prefabs\B-980Hauler.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TT-420 Freighter</SubtypeId>
+            </Id>
+            <DisplayName>TT-420 Freighter</DisplayName>
+            <Icon>Textures\GUI\Prefabs\TT-420Freighter.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>J-Class Courier</SubtypeId>
+            </Id>
+            <DisplayName>J-Class Courier</DisplayName>
+            <Icon>Textures\GUI\Prefabs\J-ClassCourier.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>B-60 Bulk Freighter</SubtypeId>
+            </Id>
+            <DisplayName>B-60 Bulk Freighter</DisplayName>
+            <Icon>Textures\GUI\Prefabs\B-60BulkFreighter.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>H-01 Prospector</SubtypeId>
+            </Id>
+            <DisplayName>H-01 Prospector</DisplayName>
+            <Icon>Textures\GUI\Prefabs\H-01Prospector.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>H-01 Sapper</SubtypeId>
+            </Id>
+            <DisplayName>H-01 Sapper</DisplayName>
+            <Icon>Textures\GUI\Prefabs\H-01Sapper.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>PV-4 Buggy</SubtypeId>
+            </Id>
+            <DisplayName>PV-4 Buggy</DisplayName>
+            <Icon>Textures\GUI\Prefabs\PV-4Buggy.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>MiniMerchant</SubtypeId>
+            </Id>
+            <DisplayName>MiniMerchant</DisplayName>
+            <Icon>Textures\GUI\Prefabs\MiniMerchant.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+        <Component>
+            <Public>false</Public>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>Cargo Shuttle</SubtypeId>
+            </Id>
+            <DisplayName>Cargo Shuttle</DisplayName>
+            <Icon>Textures\GUI\Prefabs\CargoShuttle.dds</Icon>
+            <Size>
+                <X>0.2</X>
+                <Y>0.1</Y>
+                <Z>0.1</Z>
+            </Size>
+            <Mass>8</Mass>
+            <Volume>2</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>30</MaxIntegrity>
+            <DropProbability>0.5</DropProbability>
+            <Health>18</Health>
+
+            <CanPlayerOrder>false</CanPlayerOrder>
+            
+        </Component>
+
+    </Components>
+</Definitions>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_StoreBlockDefinition">
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>EconomySurvivalStoreBlock</SubtypeId>
+            </Id>
+            <DisplayName>EconomySurvival Store</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\StoreBlock.dds</Icon>
+            <Description>Description_StoreBlock</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\StoreBlock.mwm</Model>
+            <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="RestrictedConstruction" Count="20" />
+            <DeconstructId>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Scrap</SubtypeId>
+            </DeconstructId>
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Display" Count="4" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\StoreBlockConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\StoreBlockConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\StoreBlockConstruction_3.mwm" />
+            </BuildProgressModels>
+            <ScreenAreas>
+                <ScreenArea Name="StoreScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
+                <ScreenArea Name="StoreScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
+            </ScreenAreas>
+            <BlockPairName>EconomySurvivalStoreBlock</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>25</BuildTimeSeconds>
+            <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
+            <RequiredPowerInput>0.002</RequiredPowerInput>
+            <InventorySize>
+                <X>2.5</X>
+                <Y>2.5</Y>
+                <Z>1</Z>
+            </InventorySize>
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <ActionSound>BlockCollect</ActionSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+        </Definition>
+    </CubeBlocks>
+</Definitions>

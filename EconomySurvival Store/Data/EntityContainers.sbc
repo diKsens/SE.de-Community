@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <EntityContainers>
+
+        <Container>
+            <Id>
+                <TypeId>StoreBlock</TypeId>
+                <SubtypeId>EconomySurvivalStoreBlock</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="EconomySurvivalStoreBlock" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        
+    </EntityContainers>
+</Definitions>
